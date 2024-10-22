@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#FirstPageDiv {
+    margin-top: 4em;
+}
+
+#Image {
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px black;
+}
+
+#Image:hover {
+    box-shadow: 0px 0px 30px yellow;
+}
+
+.skills-card:hover {
+    box-shadow: 0px 0px 25px black;
+}
+
+.projects-card:hover {
+    box-shadow: 0px 0px 20px yellow;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+}
+
+#Many:hover {
+    background-color: green;
+    color: black;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+#BigTextColor {
+    color: rgb(251, 113, 14);
+}
+
+li:hover {
+    color: red;
+    background-color: black;
+    box-shadow: 0px 0px 10px yellow;
+    border-radius: 0.5em;
+}
+#aid{
+    color: brown;
+}
+h1,h2,h3,h4,h5,h6,li{
+    font-weight: bold;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 29% }
+}
+
+#Runing {
+    border-right: 1px solid black;
+    animation: typing 4s steps(34) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
