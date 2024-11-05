@@ -1,65 +1,357 @@
-body {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#FirstPageDiv {
-    margin-top: 4em;
+html{
+    scroll-behavior:smooth;
 }
-
-#Image {
-    border-radius: 50%;
+#Main_Portfolio{
+    background-color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    padding: 0.6em;
+}
+#Home{
+    margin-left: 46em;
+}
+span{
+    display:grid;
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 1em;
+    cursor: pointer;
+}
+#MAINLOGO{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    margin-left: 2em;
+    color: rgb(25, 183, 131);
+    cursor: pointer;
+}
+#FirstPageDiv{
+        margin-top: 4em;
+        display: flex;
+        flex-direction: row;
+}
+#Text{
+    margin-top: 7em;
+    margin-left: 13em;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    cursor:default;
+    margin-top: 0.1em;
+    font-size: 1.5em;
+}
+#ImagePic{
+    margin-top: 3em;
+    margin-left: 12em;
+}
+#Image{
     box-shadow: 0px 0px 40px black;
+    border-radius: 15em;
 }
-
-#Image:hover {
+#Image:hover{
     box-shadow: 0px 0px 30px yellow;
 }
-
-.skills-card:hover {
-    box-shadow: 0px 0px 25px black;
+#RunTextOne{
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.8em;
 }
-
-.projects-card:hover {
-    box-shadow: 0px 0px 20px yellow;
+#RunTextTwo{
+    margin-left: 0.8em;
+    display: flex;
+    flex-direction: row;
 }
-
-button {
-    color: white;
-    font-weight: bold;
+#Runing{
+    margin-left: 0.3em;
+    color: rgb(120, 28, 28);
+    overflow: hidden; 
+    border-right: 1px solid black; 
+    white-space: nowrap; 
+    animation:typing 4s steps(45) infinite ; 
 }
-
-#Many:hover {
-    background-color: green;
-    color: black;
-    box-shadow: 0px 0px 10px yellow;
+#Runing{
+  
 }
-
-#BigTextColor {
-    color: rgb(251, 113, 14);
-}
-
-li:hover {
-    color: red;
-    background-color: black;
-    box-shadow: 0px 0px 10px yellow;
-    border-radius: 0.5em;
-}
-#aid{
-    color: brown;
-}
-h1,h2,h3,h4,h5,h6,li{
-    font-weight: bold;
-}
-
 @keyframes typing {
     from { width: 0 }
-    to { width: 29% }
+    to { width: 61% }
 }
 
-#Runing {
-    border-right: 1px solid black;
-    animation: typing 4s steps(34) infinite;
-    overflow: hidden;
-    white-space: nowrap;
+#Runing:hover{
+    text-shadow: 0px 0px 2px black;
+}
+#BigText{
+    color: rgb(8, 8, 85);
+    font-size: 3em;
+    margin-left: 0.3em;
+}
+#BigTextColor{
+    font-size: 3em;
+    margin-left: 0.3em;
+    color:rgb(251, 113, 14);
+}
+#LOL{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#SecondPageDiv{
+    margin-top: 10em;
+    background-color: rgb(93, 22, 160);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#SKILLS{
+    margin-top: 2em;
+    margin-left: 21em;
+    background-color: rgb(93, 22, 160);
+    height: 80vh;
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ box-shadow: 0px 0px 10px black;
+    gap: 1em;
+}
+#SKILLS:hover{
+    box-shadow: 0px 0px 40px black;
+}
+#SkillAndAbilities{
+    margin-left: 34em;
+display: flex;
+flex-direction: row;
+}
+#Skii{
+    margin-top: 0.5em;
+}
+#AbiColor{
+    margin-left: 0.3em;
+    color: yellow;
+    margin-top: 0.5em;
+}
+#SkillsName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 8em;
+    width: 8em;
+    font-size: 1em;
+    border-radius: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+#SkillsName:hover{
+    box-shadow: 0px 0px 25px black;
+}
+img{
+    margin-bottom: 0.5em;
+}
+
+
+
+#ThirdPageDiv{
+    margin-top: 5em;
+    background-color: rgb(2, 2, 57);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 110vh;
+    width: 100%;
+}
+#Projects{
+    display: flex;
+    flex-direction: row;
+}
+#PiroJect{
+    margin-top: 1em;
+    color: white;
+    margin-left: 25em;
+}
+#Made{
+    margin-top: 1em;
+    color: yellow;
+    margin-left: 0.4em;
+}
+#PROJECSTS{
+    height: 85vh;
+    width: 150vh;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(2, 2, 57);
+    margin-left: 11em;
+    margin-top: 1em;
+}
+#PROJECSTS{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ box-shadow: 0px 0px 10px black;
+    gap: 2em;
+}
+#Pirojects{
+    height: 14em;
+    width: 25em;
+    background-color: white;
+    margin-left: 1em;
+    border-radius: 1.2em;
+}
+#Pirojects:hover{
+    box-shadow: 0px 0px 20px yellow;
+}
+#H2piro{
+    background-color: rgb(213, 213, 12);
+    color: black;
+    border-radius: 0em 0em 1em 1em;
+
+}
+#Pir{
+    margin-bottom: 0em;
+    border-radius: 1em 1em 0em 0em;
+}
+#ManyMore{
+    margin-top: 1.3em;
+}
+button{
+    color: black;
+    background-color: yellow;
+    padding: 0.7em;
+    font-weight: bolder;
+        font-size: 1.2em;
+        border-radius: 1em;
+}
+#Many:hover{
+    color: black;
+    background-color: green;
+    box-shadow: 0px 0px 10px yellow;
+}
+
+
+
+#FourPageDiv{
+    margin-top: 3em;
+    background-color:rgb(143, 133, 133);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+#Certificate{
+    margin-left: 12em;
+    margin-top: 2em;
+    height: 80vh;
+    width: 60em;
+    background-color: white;
+    box-shadow: 0px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2em;
+}
+#MYY{
+    color: black;
+}
+li{
+    padding: 0.5em;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1em;
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    cursor: default;
+}
+#Certificate li{
+    margin-top:1em;
+}
+li:hover{
+    color: white;
+    background-color: black;
+    box-shadow: 0px 0px 10px yellow;
+    border-radius: 1em;
+}
+
+
+#FivePageDiv{
+    margin-top: 3em;
+  background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+}
+#RESUME{
+    background-color: rgb(2, 2, 57);
+    box-shadow: 0px 0px 10px black;
+    height: 25vh;
+    margin-top: 2em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+display: flex;
+flex-direction: column;
+}
+#Cont{
+    margin-top: 1em;
+}
+#RESUME1{
+    background-color: rgb(2, 2, 57);
+    box-shadow: 0px 0px 10px black;
+    height: 30vh;
+    margin-top: 2em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+display: flex;
+flex-direction: column;
+}
+#l{
+    color: white;
+}
+#SocialLinks{
+    display: flex;
+    flex-direction: row;
+}
+#Social{
+    margin-top: 1em;
+ margin: 2em;
+}
+#Social:hover{
+    border: 2px solid white;
+    color:rgb(167, 123, 13);
+    background-color: rgb(2, 2, 57);
+    box-shadow: 0px 0px 10px black;
+}
+#Cont:hover{
+    border: 2px solid white;
+    color:rgb(167, 123, 13);
+    background-color: rgb(2, 2, 57);
+    box-shadow: 0px 0px 10px black;
+}
+#AbiColor1{
+    margin-left: 0.3em;  
+    margin-top: 0.5em;
+    color: rgb(5, 5, 95);
 }
